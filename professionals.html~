@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap.min.js"></script>
+		<script type="text/javascript" src="bower_components/FlowType.js/flowtype.js"></script>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link href="main.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<nav class="navbar">
+			<div class="container">
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav nav-pills nav-justified">
+						<li id="home"><a href="home.html">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="professionals.html">Professionals</a></li>
+						<li class="dropdown">
+							<a href="practices.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Practice Areas</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Licenses & Agreements</a></li>
+								<li><a href="#">Computer Software/Internet Protection</a></li>
+								<li><a href="#">False Advertising</a></li>
+								<li><a href="#">Trade Secrets</a></li>
+								<li><a href="#">Unfair Competition</a></li>
+								<li><a href="#">Copyrights</a></li>
+								<li><a href="#">Trademarks</a></li>
+								<li><a href="#">Patents</a></li>
+							</ul>
+						</li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="careers.html">Careers</a></li>
+						<li id="contact"><a href="contact.html">Contact Us</a></li>
+					</ul>
+					<!--<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>-->
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		
+		<div class="jumbotron">
+			<div class="container">
+				<div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<h1>Cooper & Dunham llp</h1>
+					<h5>An Intellectual Property Law Firm</h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+				<div class="established col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<h5>Established 1887</h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+			</div>
+		</div>
+		<div class="professionals">
+			<div class="container">
+				<div class="partners">
+					<h2>Partners</h2>
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+							<a href="john-white.html"><h4 class="name">John P. White</h4>
+								<img id="john-white-img" src="John%20White-1.jpg"></a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+							<a href="tonia-sayour.html"><h4 class="name">Tonia A. Sayour</h4>
+								<img id="tonia-sayour-img" src="Tonia%20Sayour-1.jpg"></a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+							<a href="jeffrey-snow.html"><h4 class="name">Jeffrey L. Snow</h4>
+								<img id="jeffrey-snow-img" src="Jeffrey%20Snow-1.jpg"></a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+							<a href="wendy-miller.html"><h4 class="name">Wendy E. Miller</h4>
+								<img id="wendy-miller-img" src="Wendy_Miller.jpg"></a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+							<a href="paul-teng.html"><h4 class="name">Paul Teng</h4>
+								<img id="paul-teng-img" src="Paul_Teng.jpg"></a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+							<a href="robert-maldonado.html"><h4 class="name">Robert T. Maldonado</h4>
+								<img id="robert-maldonado-img" src="Robert_Maldonado-2sm.jpg"></a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+							<a href="gary-gershik.html"><h4 class="name">Gary J. Gershik</h4>
+								<img id="gary-gershik-img" src="Gary%20Gershik-1.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="associates">
+					<h2>Associates</h2>
+					<div class="row">
+						<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="cindy-shu.html"><h5 class="name">Cindy S. Shu</h5>
+								<img id="cindy-shu-img" src="Cindy%20Shu-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="alissa-roland.html"><h5 class="name">Alissa M. Roland</h5>
+								<img id="alissa-roland-img" src="Alissa%20Roland-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="joseph-micali.html"><h5 class="name">Joseph V. Micali</h5>
+								<img id="joseph-micali-img" src="Joseph%20Micali-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="james-corcoran.html"><h5 class="name">James T. Corcoran</h5>
+								<img id="james-corcoran-img" src="James%20Corcoran-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="eric-eisenberg.html"><h5 class="name">Eric M. Eisenberg</h5>
+								<img id="eric-eisenberg-img" src="Eric%20Eisenberg-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="aaron-selikson.html"><h5 class="name">Aaron P. Selikson</h5>
+								<img id="aaron-selikson-img" src="Aaron_Selikson.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="elana-araj.html"><h5 class="name">Elana B. Araj</h5>
+								<img id="elana-araj-img" src="Elana%20Araj-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="jason-keith.html"><h5 class="name">Jason A. Keith</h5>
+								<img id="jason-keith-img" src="Jason%20Keith-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="joong-cho.html"><h5 class="name">Joong Youn Cho, Ph.D.</h5>
+								<img id="joong-cho-img" src=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="of-counsel">
+					<h2>Of Counsel</h2>
+					<div class="row">
+						<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="christopher-dunham.html"><h5 class="name">Christopher C. Dunham</h5>
+								<img id="christopher-dunham-img" src="Christopher%20Dunham-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="norman-zivin.html"><h5 class="name">Norman H. Zivin</h5>
+								<img id="norman-zivin-img" src="Norman%20Zivin-1.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="ivan-kavrukov.html"><h5 class="name">Ivan S. Kavrukov</h5>
+								<img id="ivan-kavrukov-img" src="Ivan_Kavrukov.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="peter-murray.html"><h5 class="name">Peter D. Murray</h5>
+								<img id="peter-murray-img" src="Peter_Murray.jpg"></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+							<a href="william-pelton.html"><h5 class="name">William E. Pelton</h5>
+								<img id="william-pelton-img" src="william-e-pelton.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="scientific-advisors">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<h2>Scientific Advisors</h2>
+							<a href="#"><h5>Robert E. Bolcome, III, Ph.D.</h5></a>
+							<a href="#"><h5>Lawrence P. Tardibono, Jr., Ph.D.</h5></a>
+							<a href="#"><h5>Philip E. Alford, Ph.D.</h5></a>
+							<a href="#"><h5>Minerva Y. Wong, Ph.D.</h5></a>
+						</div>
+					</div>
+					<div class="patent-agents">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<h2>Patent Agents</h2>
+							<a href="#"><h5>Andrew Chung</h5></a>
+							<a href="#"><h5>Regina Cheng</h5></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info">
+			<div class="container-fluid">
+				<div class="row vdivide">
+					<div id="one" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h2>Lorem Ipsum</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor vitae arcu id vestibulum. Suspendisse bibendum ex posuere orci mattis, sit amet condimentum urna rhoncus. Nulla et efficitur est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel commodo nisi, vitae elementum nisl. In hac habitasse platea dictumst. Cras nulla mauris, fermentum nec nisi id, laoreet laoreet urna. Nunc venenatis malesuada urna, vel molestie leo facilisis sed.</p>
+					</div>
+					<div id="two" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h2>Recent Articles</h2>
+						<h4><a href="#">Wendy E. Miller to prosent at Fordham IP Institute's 23rd Annual Conference</a></h4>
+						<p class="date">Wednesday, 18 March 2015 12:57</p>
+						<p>Wendy E. Miller will present a session entitled "U.S. Patent Law:  Recent Developments" on April 8, 2015 at the 23rd Annual Fordham Intellectual Property Law and Policy Conference at Cambridge University in the United Kingdom.</p>
+						<h4><a href="#">Robert T. Maldonado featured in Law360 article Minority Powerbrokers Q & A</a></h4>
+						<p class="date">Monday, 09 March 2015 10:14</p>
+						<p>Robert T. Maldonado is an equity partner of Cooper & Dunham LLP, an intellectual property boutique firm in New York City that was founded in 1887. He specializes in
+						IP litigation, including patent, trademark, copyright, false advertising and unfair competition matters in federal court. Maldonado is a registered patent attorney and has
+						experience obtaining trademark and copyright protection for his clients. He has litigation experience at both the trial court and appellate court levels, as well as before
+						the Trademark Trial and Appeal Board...</p>
+					</div>
+					<div id="three" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h2>Contact Us</h2>
+						<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" marginwidth="0" marginheight="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=30+Rockefeller+Plaza+New+York,+New+York+10112&amp;sll=37.0625,-95.677068&amp;sspn=45.332616,86.132812&amp;ie=UTF8&amp;hq=&amp;hnear=30+Rockefeller+Plaza,+New+York,+10112&amp;ll=40.761203,-73.978243&amp;spn=0.011377,0.018239&amp;z=15&amp;iwloc=A&amp;output=embed" scrolling="no"></iframe></div>
+						<h3>Cooper & Dunham llp</h3>
+						<p>30 Rockefeller Plaza<br>Floor 20<br>New York, New York 10112</p>
+						<p>Email: <a href="mailto:info@cooperdunham.com">info@cooperdunham.com</a></p>
+						<p>Phone: <a href="tel:212-278-0400">(212) 278-0400</a></p>
+						<p>Fax: <a href="fax:212-391-0525">(212) 391-0525</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p><br><small>© Copyright 2010 - Cooper & Dunham LLP - All Rights Reserved.</small></p>
+			<p><a href="disclaimer.html"><small>Disclaimer</small></a></p>
+			<p><small>Law Firm Website Design by Justin Maldonado</small></p>
+		</div>
+		<script type="text/javascript">
+		//$j = jQuery.noConflict();
+		$(document).ready(function() {
+			$("body").flowtype({
+				minimum: 300,
+				minFont: 12,
+				maxFont: 40,
+				fontRatio: 30
+			});
+			$("h1").flowtype({
+				minFont: 16,
+				maxFont: 45,
+				fontRatio: 12
+			});
+			$("h2").flowtype({
+				minFont:16,
+				maxFont:40,
+				fontRatio:15
+			});
+			$("h3").flowtype({
+				minFont:12,
+				maxFont:35,
+				fontRatio:20
+			});
+			$("h4").flowtype({
+				minFont:12,
+				maxFont:35,
+				fontRatio:20
+			});
+			$("h5").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:22
+			});
+			$("h6").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:20
+			});
+			$("p").flowtype({
+				minFont: 8,
+				maxFont: 14,       
+				fontRatio: 20
+			});
+			$("nav").flowtype({
+				minFont:8,
+				maxFont: 14,
+				fontRatio: 23
+			});
+			$(".jumbotron").flowtype({
+				fontRatio:100
+			});
+			$(".established h5").flowtype({
+				minFont: 16,
+				maxFont: 45,
+				fontRatio: 16
+			});
+			$("img").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+			$(".info").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+			$(".copyright").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+		});
+	</script>
+	<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>

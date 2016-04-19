@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<link href="main.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="nav">
+			<div class="container">
+				<ul class="pull-left">
+					<li><a href="/">Home</a></li>
+					<li><a href="professionals.html">Professionals</a></li>
+					<li><a href="practices.html">Practices</a></li>
+				</ul>
+				<ul class="pull-right">
+					<li><a href="news.html">News</a></li>
+					<li><a href="careers.html">Careers</a><li>
+					<li><a href="contact.html">Contact us</a><li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Cooper & Dunham llp</h1>
+				<p>An Intellectual Property Law Firm</p>
+			</div>
+		</div>
+		
+		<div class="overview">
+			<div class="container">
+				<p class="general"><br>Cooper & Dunham LLP is an intellectual property law firm located in New York City providing legal services for patents, trademarks, copyrights, unfair competition, trade secrets, false advertising, computer software/internet protection, and licenses and agreements.  The firm is known for their technical and legal acumen, their team of diversely skilled and experienced lawyers, and their lengthy and successful track record in the growing field of intellectual property law.</p>
+				<p><a href="#">Read more</a></p>
+				<!--<p class="more">In 1887, the founders of Cooper & Dunham LLP opened their offices in New York, dedicated to the practice of patent, trademark, copyright and related intellectual property law. Over a century later, Cooper & Dunham LLP remains committed to specializing in that practice area.  Cooper & Dunham LLP has been and continues to be composed of leaders in their field of specialization.
+
+The firm's longevity and growth is due to the quality of its performance in the practice of high technology law. The firm's national and international practice includes all areas of intellectual property: patents, trademarks and trade identity, copyrights, unfair competition, trade secrets, false advertising and claim substantiation, computer software/internet protection, licenses and agreements, and due diligence.
+
+The firm has formed practice groups in biotechnology and pharmaceuticals, electronics and information technology, and litigation and trademarks.  The firm's practice groups have assisted clients in the negotiation of complex, corporate acquisitions of technology-oriented businesses, joint research and development agreements and technology licensing agreements in fields ranging from genetic engineering research to software, semiconductors and computer hardware, as well as in the negotiation of brand name, copyright and fictional character licenses, celebrity endorsements and product distribution agreements.  The firm's practice includes client counseling and opinions on both domestic and international issues, U.S. and foreign patent and trademark prosecution and conducting oppositions and cancellations before the United States Patent and Trademark Office.  The firm has an extensive litigation practice in federal courts throughout the country.
+
+Almost all of the firm's attorneys have technical training, expertise and degrees in diverse fields including electrical engineering, chemical engineering, biochemistry, chemistry, physics, biology, mechanical engineering, computer systems, and mining and metallurgical engineering.  Nearly all are registered to practice as Patent Attorneys before the U.S. Patent and Trademark Office.
+
+In addition, the firm has on its staff a number of scientific advisors with graduate degrees in the biotechnology fields.
+
+From major litigation to day-to-day advice, Cooper & Dunham LLP attorneys stand ready to assist their clients in any intellectual property matters that may arise.</p>-->
+			</div>
+		</div>
+		
+		<div class="professionals">
+			<div class="container">
+				<h2>Meet the partners</h2>
+				<div class="row">
+					<div class="col-md-2">
+						<h7 class="name">John P. White</h7>
+						<div class="thumbnail">
+							<img id="image1" src="http://cooperdunham.com/images/stories/attorneys/John%20White-1.jpg">
+						</div>
+						<h7 class="name">Paul Teng</h7>
+						<div class="thumbnail">
+							<img id="image2" src="http://cooperdunham.com/images/stories/attorneys/Paul_Teng.jpg">
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h7 class="name">Tonia Sayour</h7>
+						<div class="thumbnail">
+							<img id="image3" src="http://cooperdunham.com/images/stories/attorneys/Tonia%20Sayour-1.jpg">
+						</div>
+						<h7 class="name">Robert T. Maldonado</h7>
+						<div class="thumbnail">
+							<img id="image4" src="http://cooperdunham.com/images/stories/attorneys/Robert_Maldonado-2sm.jpg">
+						</div>
+					</div>
+					<div class="col-md-2">
+					<h7 class="name">Jeffrey Snow</h7>
+						<div class="thumbnail">
+							<img id="image5" src="http://cooperdunham.com/images/stories/attorneys/Jeffrey%20Snow-1.jpg">
+						</div>
+						<h7 class="name">Gary Gershik</h7>
+						<div class="thumbnail">
+							<a class="thmb" href="#"><img id="image6" src="http://cooperdunham.com/images/stories/attorneys/Gary%20Gershik-1.jpg"></a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div>
+							<h3 class="name">Wendy E. Miller</h3>
+						</div>
+						<div class="thumbnail">
+							<img id="active-image" src="http://cooperdunham.com/images/stories/attorneys/Wendy_Miller.jpg">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="description">
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Celebrating her 25th year with Cooper & Dunham, Wendy specializes in intellectual property litigation, counseling, licensing and portfolio development, including: 
+
+litigating intellectual property disputes and appeals in the U.S. Courts and the U.S. Patent and Trademark Office, including disputes involving patents, trademarks, copyright, false advertising and unfair competition;
+prosecuting ex parte and inter partes trademark matters before the U.S. Patent and Trademark Office, specializing in high-tech trademark matters;
+conducting intellectual property analyses and providing opinions on patent validity and infringement, and trademark clearance, validity and infringement.</p>
+							<p><a href="#">Read more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="app.js"></script>
+		<script type="text/javascript">$('body').flowtype();</script>
+	</body>
+</html>
+	
+	
+		
+		

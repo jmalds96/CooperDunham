@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap.min.js"></script>
+		<script type="text/javascript" src="bower_components/FlowType.js/flowtype.js"></script>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link href="main.css" rel="stylesheet">
+	</head>
+	
+	<body><div style="min-width: 1200px; margin: 0 auto;">
+		<nav class="navbar">
+			<div class="container">
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav nav-pills nav-justified">
+						<li><a href="home.html">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="professionals.html">Professionals</a></li>
+						<li class="dropdown">
+							<a href="practices.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Practice Areas</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Licenses & Agreements</a></li>
+								<li><a href="#">Computer Software/Internet Protection</a></li>
+								<li><a href="#">False Advertising</a></li>
+								<li><a href="#">Trade Secrets</a></li>
+								<li><a href="#">Unfair Competition</a></li>
+								<li><a href="#">Copyrights</a></li>
+								<li><a href="#">Trademarks</a></li>
+								<li><a href="#">Patents</a></li>
+							</ul>
+						</li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="careers.html">Careers</a></li>
+						<li id="contact"><a href="contact.html">Contact Us</a></li>
+					</ul>
+					<!--<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>-->
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		
+		<div class="jumbotron">
+			<div class="container">
+				<div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<h1>Cooper & Dunham llp</h1>
+					<h5>An Intellectual Property Law Firm</h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+				<div class="established col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<h5>Established 1887</h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+			</div>
+		</div>
+		
+		<div class="disclaimer">
+			<div class="container">
+				<h2>Disclaimer</h2>
+				<p><b>No attorney-client relationship.</b> Cooper & Dunham LLP maintains this website exclusively for informational purposes. It is not legal or other professional advice and does not necessarily represent the opinion of Cooper Dunham LLP or its clients. Viewing this site, using information from it, or communicating with Cooper & Dunham LLP through this site by Internet e-mail does not create an attorney-client relationship between you and Cooper & Dunham LLP.</p>
+				<p><b>Nonreliance.</b> Online readers should not act or decline to act, based on content from this site, without first consulting an attorney or other appropriate professional. Because the law changes constantly, this website's content may not indicate the current state of the law. Nothing on this site predicts or guarantees future results. Cooper & Dunham LLP is not liable for the use or interpretation of information contained on this site, and expressly disclaim all liability for any actions you take or do not take, based on this site's content.</p>
+				<p><b>Links.</b> Cooper & Dunham LLP does not necessarily endorse and is not responsible for content accessed through this website's links to other Internet resources. Correctness and adequacy of information on those sites is not guaranteed, and unless otherwise stated, Cooper & Dunham LLP is not associated with such linked sites.</p>
+				<p><b>Contacting us.</b> You may e-mail us through this site, but information you send to Cooper & Dunham LLP through Internet e-mail or this website is not secure and may not be confidential. Communications to us will not be treated as privileged unless we already represent you. Do not send us confidential information until you have established a formal attorney-client relationship with Cooper & Dunham LLP. Even if we represent you, understand that Internet e-mail security is still uncertain and that you accept all risks of such uncertainty and potential lack of confidentiality when you send us unencrypted, sensitive, or confidential e-mail. E-mail from Cooper & Dunham LLP never constitutes an electronic signature, unless it expressly says so.</p>
+				<p><b>Jurisdiction.</b> Legal problems and solutions depend on their unique facts. Laws and regulations often differ from one jurisdiction to another. Materials on this website may be inappropriate in jurisdictions other than New York. Cooper & Dunham LLP's attorneys practice primarily in the State of New York. Users who access this website from other locations do so at their own risk and are responsible for complying with local laws and regulations. This website (not including linked sites) is controlled by Cooper & Dunham LLP. The laws of New York apply to everything concerning use of this website, without regard to New York's conflict of laws principles. You agree to submit to the exclusive personal jurisdiction and venue of the appropriate New York court to resolve any dispute concerning your use of this website.</p>
+			</div>
+		</div>
+		<div class="info">
+			<div class="container-fluid">
+				<div class="row vdivide">
+					<div id="one" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h2>Lorem Ipsum</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor vitae arcu id vestibulum. Suspendisse bibendum ex posuere orci mattis, sit amet condimentum urna rhoncus. Nulla et efficitur est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel commodo nisi, vitae elementum nisl. In hac habitasse platea dictumst. Cras nulla mauris, fermentum nec nisi id, laoreet laoreet urna. Nunc venenatis malesuada urna, vel molestie leo facilisis sed.</p>
+					</div>
+					<div id="two" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h2>Recent Articles</h2>
+						<h4><a href="#">Wendy E. Miller to prosent at Fordham IP Institute's 23rd Annual Conference</a></h4>
+						<p class="date">Wednesday, 18 March 2015 12:57</p>
+						<p>Wendy E. Miller will present a session entitled "U.S. Patent Law:  Recent Developments" on April 8, 2015 at the 23rd Annual Fordham Intellectual Property Law and Policy Conference at Cambridge University in the United Kingdom.</p>
+						<h4><a href="#">Robert T. Maldonado featured in Law360 article Minority Powerbrokers Q & A</a></h4>
+						<p class="date">Monday, 09 March 2015 10:14</p>
+						<p>Robert T. Maldonado is an equity partner of Cooper & Dunham LLP, an intellectual property boutique firm in New York City that was founded in 1887. He specializes in
+						IP litigation, including patent, trademark, copyright, false advertising and unfair competition matters in federal court. Maldonado is a registered patent attorney and has
+						experience obtaining trademark and copyright protection for his clients. He has litigation experience at both the trial court and appellate court levels, as well as before
+						the Trademark Trial and Appeal Board...</p>
+					</div>
+					<div id="three" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h2>Contact Us</h2>
+						<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" marginwidth="0" marginheight="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=30+Rockefeller+Plaza+New+York,+New+York+10112&amp;sll=37.0625,-95.677068&amp;sspn=45.332616,86.132812&amp;ie=UTF8&amp;hq=&amp;hnear=30+Rockefeller+Plaza,+New+York,+10112&amp;ll=40.761203,-73.978243&amp;spn=0.011377,0.018239&amp;z=15&amp;iwloc=A&amp;output=embed" scrolling="no"></iframe></div>
+						<h3>Cooper & Dunham llp</h3>
+						<p>30 Rockefeller Plaza<br>Floor 20<br>New York, New York 10112</p>
+						<p>Email: <a href="mailto:info@cooperdunham.com">info@cooperdunham.com</a></p>
+						<p>Phone: <a href="tel:212-278-0400">(212) 278-0400</a></p>
+						<p>Fax: <a href="fax:212-391-0525">(212) 391-0525</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p><br><small>© Copyright 2010 - Cooper & Dunham LLP - All Rights Reserved.</small></p>
+			<p><a href="disclaimer.html"><small>Disclaimer</small></a></p>
+			<p><small>Law Firm Website Design by Justin Maldonado</small></p>
+		</div>
+		<script type="text/javascript">
+		//$j = jQuery.noConflict();
+		$(document).ready(function() {
+			$("body").flowtype({
+				minimum: 300,
+				minFont: 12,
+				maxFont: 40,
+				fontRatio: 30
+			});
+			$("h1").flowtype({
+				minFont: 16,
+				maxFont: 45,
+				fontRatio: 12
+			});
+			$("h2").flowtype({
+				minFont:16,
+				maxFont:40,
+				fontRatio:15
+			});
+			$("h3").flowtype({
+				minFont:12,
+				maxFont:35,
+				fontRatio:20
+			});
+			$("h4").flowtype({
+				minFont:12,
+				maxFont:35,
+				fontRatio:20
+			});
+			$("h5").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:20
+			});
+			$("h6").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:20
+			});
+			$("p").flowtype({
+				minFont: 8,
+				maxFont: 14,       
+				fontRatio: 20
+			});
+			$("nav").flowtype({
+				minFont:8,
+				maxFont: 14,
+				fontRatio: 23
+			});
+			$(".jumbotron").flowtype({
+				fontRatio:100
+			});
+			$(".established h5").flowtype({
+				minFont: 16,
+				maxFont: 45,
+				fontRatio: 16
+			});
+			$(".overview").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+			 $(".slideshow").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+			$(".slide img").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+			$(".slider-nav").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+			$(".info").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+			$(".copyright").flowtype({
+				minFont:12,
+				maxFont:20,
+				fontRatio:30
+			});
+		});
+	</script>
+	<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
